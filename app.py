@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing import image
 app = Flask(__name__)
 
 # Define the path to the pre-trained model
-MODEL_PATH = 'model_resnet50.h5'
+MODEL_PATH = './model/Transfer Learning Resnet 50.ipynb'
 
 # Load the pre-trained model
 model = ResNet50(weights=MODEL_PATH)
